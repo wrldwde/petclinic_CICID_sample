@@ -1,2 +1,2 @@
-# petclinic_CICID_sample
-A Petclinic app sample to perform simple CI/CD pipline via Jenkins.
+# A sapmple of CI/CD pipeline using Petclinic app.
+A Petclinic app sample to perform simple CI/CD pipeline via Jenkins.
