@@ -4,12 +4,6 @@ pipeline {
     }
     stages {
       stage('SonarQube Analysis') {
-            tools {
-                maven 'maven_sonarqube'
-            }
-            environment {
-                scannerHome = tool 'sonarqube'
-            }
             steps {
                 withSonarQubeEnv('sonar_for_petclinic') {
                     sh 'chmod +x mvnw'
